@@ -1,0 +1,38 @@
+body {
+  background-color: #f4f4f4;
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+h2 {
+  margin-bottom: 30px;
+}
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.tarjeta {
+  background: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 180px; /* Tamaño fijo de la tarjeta como en el ejemplo */
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tarjeta img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
